@@ -1,0 +1,96 @@
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+.card {
+    margin-bottom: 20px;
+}
+.course-category {
+    text-align: center;
+    border: 0;
+    border-right: 1px solid #ccc;
+    border-radius: 0;
+}
+.course-category:last-child {
+    border:0;
+}
+.course-category .card-title {
+    font-size: 48px;
+    min-height: 72px;
+}
+.course-category:last-child .card-title {
+    font-size: 30px;
+}
+.card.course {
+}
+
+.register {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.pace {     z-index: 9999; -webkit-pointer-events: none; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+.pace-inactive { display: none; }
+.pace .pace-progress { background: #29d; position: fixed; z-index: 2000; top: 0; right: 100%; width: 100%; height: 4px; box-shadow: 0 4px 2px -2px white; }
+
+.btn-information {
+    padding: 5px;
+    background: #3490dc;
+    border-radius: 15px;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 5px;
+    margin-left: 4px;
+    text-align: center;
+}
+#whenStartHelp {
+    line-height: 8px;
+}
